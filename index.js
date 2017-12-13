@@ -1,16 +1,24 @@
-﻿//线路
+//线路
 var vipSource = [
+    "http://www.1717yun.com/jx/ty.php?url=",
     "http://api.wlzhan.com/sudu/?url=",
+
     "http://v.buy360.vip/cxjx.php?v=",
     "http://vip.72du.com/api/?url=",
+
     "http://api.nepian.com/ckparse/?url=",
     "http://api.91exp.com/svip/?url=",
+
     "http://www.chepeijian.cn/jiexi/vip.php?url=",
     "http://www.wmxz.wang/video.php?url=",
+
     "http://api.baiyug.cn/vip/index.php?url=",
     "http://jiexi.92fz.cn/player/vip.php?url=",
-    "http://lookxw.com/yingzi/?url=",
-    "http://api.97kn.com/?url="
+
+    "http://lookxw.com/yingzi/?url=",    
+    "http://yun.mt2t.com/yun?url=",
+
+    "http://www.662820.com/xnflv/index.php?url="
 ];
 
 //初始化
