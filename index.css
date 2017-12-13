@@ -1,0 +1,35 @@
+﻿html {
+    overflow: hidden;
+}
+
+body {
+    font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.dcsm iframe {
+    margin-top: 15px;
+    height: 658px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #009a61;
+}
+
+.dcsm #seVtype {
+    width: 120px;
+}
+
+.dcsm h4 {
+    color: red;
+}
+
+.dcsm .footer {
+    margin-top: 10px;
+}
+
+    .dcsm .footer a {
+        float: left;
+        margin-right: 15px;
+    }
