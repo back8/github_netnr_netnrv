@@ -59,6 +59,16 @@ $('#btnPlay').click(function () {
     }
 });
 
+//全屏
+$('#aGoFull').click(function () {
+    var src = $('#inetnr')[0].src;
+    if (src.length > 15) {
+        location.href = src;
+    } else {
+        alert("请先粘贴VIP视频链接");
+    }    
+});
+
 //自适应高度
 $(window).on('load resize', function () {
     var ifn = $('#inetnr'), ch = $(this).height() - ifn.offset().top;
