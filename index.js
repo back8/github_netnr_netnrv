@@ -8,15 +8,13 @@ var vipSource = [
 
     "http://api.nepian.com/ckparse/?url=",
     "http://api.91exp.com/svip/?url=",
-
-    "http://www.chepeijian.cn/jiexi/vip.php?url=",
+    
     "http://www.wmxz.wang/video.php?url=",
 
     "http://api.baiyug.cn/vip/index.php?url=",
     "http://jiexi.92fz.cn/player/vip.php?url=",
 
     "http://lookxw.com/yingzi/?url=",    
-    "http://yun.mt2t.com/yun?url=",
 
     "http://www.662820.com/xnflv/index.php?url="
 ];
