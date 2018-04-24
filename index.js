@@ -1,7 +1,8 @@
 //线路
 var vipSource = [
+    "https://player.baodai.org/ipsign/player.php?v=",
+
 	"https://yun.baiyug.cn/vip/?url=",
-	"https://player.baodai.org/ipsign/player.php?v=",
     "https://1717ty.duapp.com/ty.php?url=",
 			
     "http://www.1717yun.com/jx/ty.php?url=",
@@ -36,10 +37,10 @@ function init() {
     $(pars).each(function () {
         if (this.indexOf('url=') >= 0) {
             $('#txtVipUri').val(this.substring(4));
-            $('#btnPlay')[0].click();
             return false;
         }
     });
+    $('#btnPlay')[0].click();
 }
 
 //切换源
