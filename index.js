@@ -1,5 +1,9 @@
 //线路
 var vipSource = [
+	"https://yun.baiyug.cn/vip/?url=",
+	"https://player.baodai.org/ipsign/player.php?v=",
+    "https://1717ty.duapp.com/ty.php?url=",
+			
     "http://www.1717yun.com/jx/ty.php?url=",
     "http://api.wlzhan.com/sudu/?url=",
 
