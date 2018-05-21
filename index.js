@@ -3,25 +3,12 @@ var vipSource = [
     "https://1717ty.duapp.com/ty.php?url=",
 	
     "https://player.baodai.org/ipsign/player.php?v=",
-	"https://yun.baiyug.cn/vip/?url=",
-			
+    "https://api.flvsp.com/?url=",
+
     "http://www.1717yun.com/jx/ty.php?url=",
     "http://api.wlzhan.com/sudu/?url=",
 
-    "http://v.buy360.vip/cxjx.php?v=",
-    "http://vip.72du.com/api/?url=",
-
-    "http://api.nepian.com/ckparse/?url=",
-    "http://api.91exp.com/svip/?url=",
-    
-    "http://www.wmxz.wang/video.php?url=",
-
-    "http://api.baiyug.cn/vip/index.php?url=",
-    "http://jiexi.92fz.cn/player/vip.php?url=",
-
-    "http://lookxw.com/yingzi/?url=",    
-
-    "http://www.662820.com/xnflv/index.php?url="
+    "http://v.buy360.vip/cxjx.php?v="
 ];
 
 //初始化
