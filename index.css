@@ -1,8 +1,4 @@
-﻿html {
-    overflow: hidden;
-}
-
-body {
+﻿body {
     font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
@@ -33,3 +29,34 @@ body {
         float: left;
         margin-right: 15px;
     }
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+    padding: 30px 0 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+    .footer p {
+        font-size: 1.3em;
+        margin-top: .5em;
+    }
+
+    .footer .logo {
+        user-select: none;
+        animation: myrotate 60s infinite;
+    }
+
+@keyframes myrotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
