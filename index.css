@@ -17,8 +17,12 @@
     width: 120px;
 }
 
-.dcsm h5 {
+.dcsm .text-dnager {
     color: red;
+}
+
+.dcsm small a {
+    margin: 0 15px;
 }
 
 .dcsm .footer {

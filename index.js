@@ -1,14 +1,8 @@
 //线路
 var vipSource = [
-    "https://1717ty.duapp.com/ty.php?url=",
-	
     "https://player.baodai.org/ipsign/player.php?v=",
-    "https://api.flvsp.com/?url=",
-
-    "http://www.1717yun.com/jx/ty.php?url=",
-    "http://api.wlzhan.com/sudu/?url=",
-
-    "http://v.buy360.vip/cxjx.php?v="
+    "https://zuida-jiexi.com/zuidazy/jx.php/?url=",
+    "https://cdn.yangju.vip/k/?url="
 ];
 
 //初始化
@@ -56,7 +50,7 @@ $('#aGoFull').click(function () {
         location.href = src;
     } else {
         alert("请先粘贴VIP视频链接");
-    }    
+    }
 });
 
 //自适应高度
