@@ -60,14 +60,13 @@
 
     <script src="index.js?v1"></script>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124641448-2"></script>
     <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?b7e2042d3dfd6f5aaeb4d6206a683ab0";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124641448-2');
     </script>
 
 </body>
