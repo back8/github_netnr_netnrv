@@ -1,8 +1,6 @@
 //线路
 var vipSource = [
-    "https://player.baodai.org/ipsign/player.php?v=",
-    "https://zuida-jiexi.com/zuidazy/jx.php/?url=",
-    "https://cdn.yangju.vip/k/?url="
+    "https://player.baodai.org/ipsign/player.php?v="
 ];
 
 //初始化
