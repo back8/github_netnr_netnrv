@@ -1,6 +1,8 @@
 //线路
 var vipSource = [
-    "https://player.baodai.org/ipsign/player.php?v="
+    "https://player.baodai.org/ipsign/player.php?v=",
+    "https://jiexi.071811.cc/jx2.php?url=",
+    "https://api.flvsp.com/?url="
 ];
 
 //初始化
