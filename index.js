@@ -17,11 +17,10 @@ function init() {
     for (var i = 0; i < pars.length; i++) {
         var pi = pars[i];
         if (pi.indexOf('url=') >= 0) {
-            $('#txtVipUri').val(this.substring(4));
+            $('#txtVipUri').val(pi.substring(4));
             return false;
         }
     }
-    console.log($('#txtVipUri').val())
     $('#btnPlay')[0].click();
 }
 
