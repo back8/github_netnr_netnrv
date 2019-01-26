@@ -14,12 +14,14 @@ function init() {
     $('#seVtype').html(htm.join(''));
     //带参播放
     var pars = location.search.toLowerCase().substring(1).split('&');
-    $(pars).each(function () {
-        if (this.indexOf('url=') >= 0) {
+    for (var i = 0; i < pars.length; i++) {
+        var pi = pars[i];
+        if (pi.indexOf('url=') >= 0) {
             $('#txtVipUri').val(this.substring(4));
             return false;
         }
-    });
+    }
+    console.log($('#txtVipUri').val())
     $('#btnPlay')[0].click();
 }
 
