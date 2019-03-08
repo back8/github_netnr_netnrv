@@ -1,10 +1,4 @@
-﻿body {
-    font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
-    background-color: #fff;
-    -webkit-font-smoothing: antialiased;
-}
-
-.dcsm iframe {
+﻿.dcsm iframe {
     margin-top: 15px;
     height: 658px;
     border: none;
@@ -23,33 +17,4 @@
 
 .dcsm small a {
     margin: 0 15px;
-}
-
-.dcsm .footer {
-    margin-top: 10px;
-}
-
-    .dcsm .footer a {
-        float: left;
-        margin-right: 15px;
-    }
-
-/*footer*/
-.footer {
-    width: 100%;
-    display: block;
-    margin-top: 70px;
-    padding: 20px 0;
-    text-align: center;
-    border-top: 1px solid #eee;
-}
-
-@keyframes myrotate {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
 }
