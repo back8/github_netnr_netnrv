@@ -20,7 +20,7 @@ function init() {
         var pi = pars[i];
         if (pi.indexOf('url=') >= 0) {
             $('#txtVipUri').val(decodeURIComponent(pi.substring(4)));
-            return false;
+            break;
         }
     }
     $('#btnPlay')[0].click();
