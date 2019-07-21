@@ -1,8 +1,8 @@
 //线路
 var vipSource = [
+    "https://jx.618g.com/?url=",
+    "https://api.sigujx.com/jx/?url=",
     "https://player.baodai.org/ipsign/player.php?v=",
-    "https://jx.dy-jx.com/?url=",
-    "https://jiexi.071811.cc/jx2.php?url=",
     "https://api.bbbbbb.me/v.php?url="
 ];
 
