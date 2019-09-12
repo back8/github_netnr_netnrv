@@ -2,8 +2,7 @@
 var vipSource = [
     "https://jx.618g.com/?url=",
     "https://api.sigujx.com/jx/?url=",
-    "https://player.baodai.org/ipsign/player.php?v=",
-    "https://api.bbbbbb.me/v.php?url="
+    "https://player.baodai.org/ipsign/player.php?v="
 ];
 
 //初始化
