@@ -1,7 +1,7 @@
 //线路
 var vipSource = [
-    "https://jx.fo97.cn/?url=",
-    "https://www.heimijx.com/jx/api/?url="
+    "https://api.sigujx.com/jx/?url=",
+    "https://jx.fo97.cn/?url="
 ];
 
 //初始化
@@ -18,10 +18,10 @@ function init() {
         var pi = pars[i];
         if (pi.indexOf('url=') >= 0) {
             document.getElementById('txtVipUri').value = decodeURIComponent(pi.substring(4));
+            document.getElementById('btnPlay').click();
             break;
         }
     }
-    document.getElementById('btnPlay').click();
 }
 
 //切换源

@@ -2,4 +2,4 @@
 
 VIP视频解析
 
-<https://v.netnr.com>
+<https://v.zme.ink>
