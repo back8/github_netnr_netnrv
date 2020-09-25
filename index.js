@@ -1,7 +1,8 @@
 //线路
 var vipSource = [
     "https://api.sigujx.com/jx/?url=",
-    "https://jx.fo97.cn/?url="
+    "https://v.idc126.net/v/?url=",
+    "https://jiexi.380k.com/?url="
 ];
 
 //初始化
