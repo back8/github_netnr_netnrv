@@ -4,7 +4,7 @@ chrome.contextMenus.create({
     documentUrlPatterns: ["*://*.mgtv.com/*", "*://*.letv.com/*", "*://*.youku.com/*", "*://*.iqiyi.com/*", "*://*.v.qq.com/*", "*://*.tudou.com/*", "*://*.wasu.cn/*", "*://*.ku6.com/*", "*://*.56.com/*", "*://*.tv.sohu.com/*", "*://*.film.sohu.com/*", "*://*.1905.com/*", "*://*.pptv.com/*", "*://*.baofeng.com/*", "*://*.bilibili.com/*", "*://*.fun.tv/*", "*://*.6.cn/*"],
     targetUrlPatterns: ["http://*/*"],
     onclick: function (b) {
-        burl = "https://v.zme.ink/?url=" + encodeURIComponent(b.pageUrl);
+        burl = "https://v.netnr.eu.org/?url=" + encodeURIComponent(b.pageUrl);
         chrome.tabs.query({
             active: true,
             currentWindow: true
@@ -17,6 +17,6 @@ chrome.contextMenus.create({
 });
 chrome.browserAction.onClicked.addListener(function (b) {
     chrome.tabs.create({
-        url: 'https://v.zme.ink'
+        url: 'https://v.netnr.eu.org'
     })
 });
